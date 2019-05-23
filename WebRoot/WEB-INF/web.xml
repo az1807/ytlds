@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HeaderServlet</servlet-name>
+    <servlet-class>com.ytlds.servlet.HeaderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FooterServlet</servlet-name>
+    <servlet-class>com.ytlds.servlet.FooterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YuanGongServlet</servlet-name>
+    <servlet-class>com.ytlds.servlet.YuanGongServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FoodTypeServlet</servlet-name>
+    <servlet-class>com.ytlds.servlet.FoodTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FoodServlet</servlet-name>
+    <servlet-class>com.ytlds.servlet.FoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsTypeServlet</servlet-name>
+    <servlet-class>com.ytlds.servlet.NewsTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsServlet</servlet-name>
+    <servlet-class>com.ytlds.servlet.NewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LiuYanServlet</servlet-name>
+    <servlet-class>com.ytlds.servlet.LiuYanServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>HeaderServlet</servlet-name>
+    <url-pattern>/header</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FooterServlet</servlet-name>
+    <url-pattern>/footer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>YuanGongServlet</servlet-name>
+    <url-pattern>/yuangong</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodTypeServlet</servlet-name>
+    <url-pattern>/foodtype</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodServlet</servlet-name>
+    <url-pattern>/food</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsTypeServlet</servlet-name>
+    <url-pattern>/newstype</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsServlet</servlet-name>
+    <url-pattern>/news</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LiuYanServlet</servlet-name>
+    <url-pattern>/liuyan</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
